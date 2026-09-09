@@ -1,0 +1,19 @@
+# Локальные настройки
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Frontend
+node_modules/
+dist/
+
+# Редактор и система
+.idea/
+.vscode/
+.DS_Store
